@@ -20,7 +20,8 @@ Just copy-paste the file
 
 ### List of options
 A non empty list of n tuples, where n are the number of possible
-formats of the command
+formats of the command \
+If types and filters match, the handler function will be executed
 ```
 [ 
     (types string, filters list, handler function),
